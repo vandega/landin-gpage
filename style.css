@@ -38,6 +38,9 @@ header{
 main{
     background: none;
     margin: 0px 145px auto 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .element{
@@ -55,6 +58,48 @@ main{
 .text h2{
     margin-top: 88px;
     margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
 }
 
+.text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
 
+.text-edit{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/*   editing specia for second post, because picture has different sizes   */
+
+.element-2{
+    display: flex;
+    color: #CBD5E1;
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    gap: 76px;
+}
+
+.element-2 img{
+    margin: 46px auto 46px 17px;
+}
+
+/*   editing specia for third post, because picture has different sizes   */
+
+.element-3{
+    display: flex;
+    color: #CBD5E1;
+    background: rgba(30, 41, 59, 0.4);
+    border-radius: 20px;
+    gap: 109px;
+}
+
+.element-3 img{
+    margin: 54px auto 54px 27px;
+}
