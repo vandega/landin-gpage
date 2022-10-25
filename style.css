@@ -2,13 +2,13 @@ html{
     position: relative;
     width: 1440px;
     height: 1024px;
-    
+    background: white;  /*   <----    delete this line amd whole page will in #0F172A; color*/                        
 }
 
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto';
     background: none;
@@ -167,15 +167,10 @@ main{
 }
 
 
-
-
 /*--------------------------------------------------------------footer---------------------------------------------------*/
 
 footer{
-    display: flex;
-    border-top: 1px solid #CBD5E1;
-    height: 130px;
-    
+    border-top: 1px solid white;
 }
 
 footer p{
@@ -187,12 +182,22 @@ footer p{
     color: #CBD5E1;
 }
 
-footer nav{
-    display:flex;
+.footer{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+.footer p{
+    margin-left: 108px;
+}
 
-.footer-social{
+
+.links{
     display: flex;
-    gap: 10px;
+    gap: 10px
+}
+
+.links {
+    margin-right: 180px;
 }
