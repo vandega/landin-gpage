@@ -37,10 +37,12 @@ header{
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
+    
 }
 
 .buttons a{
     color: #F8FAFC;
+    
 }
 
 main{
@@ -112,7 +114,6 @@ main{
     margin: 54px auto 54px 27px;
 }
 
-
 /*            latest posts            */
 
 .latest-posts{
@@ -160,13 +161,10 @@ main{
 
 }
 
-
-
 .timer{
     color: #9CA3AF;
 
 }
-
 
 /*--------------------------------------------------------------footer---------------------------------------------------*/
 
@@ -192,7 +190,6 @@ footer p{
 .footer p{
     margin-left: 108px;
 }
-
 
 .links{
     display: flex;
