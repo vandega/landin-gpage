@@ -1,0 +1,45 @@
+ <footer>
+    <nav class="footer">
+        <div class="footer-info">
+            <p>© Copyright 2022  All rights reserved</p>
+        </div>
+
+        <div class="footer-info"><!--social media-->
+            <a href="https://www.facebook.com/"><img src="./sorce/images/social/facebook.svg" alt="facebook"></a>
+            <a href="https://twitter.com/"><img src="./sorce/images/social/twitter.svg" alt="twitter"></a>
+            <a href="https://www.linkedin.com/"><img src="./sorce/images/social/linked in.svg" alt="linkedin"></a>
+        </div>
+
+    </nav>
+ </footer>
+
+
+
+
+
+css
+
+
+footer{
+    border-top: 1px solid #CBD5E1;
+    height: 130px;
+}
+
+.footer-info{
+    display: flex;
+    gap: 10px;
+
+}
+
+footer p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #CBD5E1;
+}
+
+.footer{
+    display: flexbox;
+    align-items: ;
